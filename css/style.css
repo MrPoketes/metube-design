@@ -1,6 +1,4 @@
-.col-xs-1{
-    padding-left:10px;
-}
+/*  */
 
 .logo{
     position: relative;
@@ -9,15 +7,50 @@
 .logo-2{
     width:35px;
 }
+img.img-thumbnail{
+    padding: 8px;
+}
+.img-thumbnail:hover{
+    background-color: rgb(156, 156, 156, 20%);
+}
+.nav-user{
+    padding: 10px;;
+}
+.background-white{
+    background-color: white;
+}
+/* Bootstrap styling */
+
+.col-xs-1{
+    padding-left:10px;
+}
+
 .container-fluid{
     margin-top: 10px;
 }
 .videos{
     margin-top:20px;
 }
-img.img-thumbnail{
-    padding: 8px;
+.col-md-3{
+    position: absolute;
+    right:-4.6875em;
 }
-.img-thumbnail:hover{
-    background-color: rgb(156, 156, 156, 20%);
+.fixed-top{
+    padding-top: 10px;
+}
+
+
+/* Font Awesome styling */
+
+.fa-bell{
+    padding:15px;
+}
+.fa-plus-square{
+    padding:15px;
+}
+.fa-video{
+    padding:15px;
+}
+.fa-times-circle{
+    padding: 15px;
 }
