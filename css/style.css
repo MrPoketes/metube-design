@@ -1,0 +1,23 @@
+.col-xs-1{
+    padding-left:10px;
+}
+
+.logo{
+    position: relative;
+    top:-5px;
+}
+.logo-2{
+    width:35px;
+}
+.container-fluid{
+    margin-top: 10px;
+}
+.videos{
+    margin-top:20px;
+}
+img.img-thumbnail{
+    padding: 8px;
+}
+.img-thumbnail:hover{
+    background-color: rgb(156, 156, 156, 20%);
+}
