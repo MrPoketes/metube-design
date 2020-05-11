@@ -2,8 +2,8 @@
 
 .logo{
     position: relative;
-    left:2px;
     top:-5px;
+    left:2px;
 }
 .logo-2{
     width:35px;
@@ -23,7 +23,7 @@ img.img-thumbnail{
 /* Bootstrap styling */
 
 .col-xs-1{
-    padding-left:10px;
+    padding-left:30px;
 }
 
 .container-fluid{
