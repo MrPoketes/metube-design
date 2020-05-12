@@ -1,4 +1,27 @@
-/*  */
+/* Bootstrap styling */
+
+.col-xs-1{
+    padding-left:30px;
+}
+.container-fluid{
+    margin-top: 10px;
+}
+.col-md-3{
+    position: absolute;
+    right:-4.6875em;
+}
+.fixed-top{
+    padding-top: 10px;
+}
+/* Font Awesome styling */
+
+/* Background colors */
+
+.background-white{
+    background-color: white;
+}
+
+/* Navbar */
 
 .logo{
     position: relative;
@@ -15,43 +38,15 @@ img.img-thumbnail{
     background-color: rgb(156, 156, 156, 20%);
 }
 .nav-user{
-    padding: 10px;;
+    padding: 0.5em 1.25em 0 1.25em; 
 }
-.background-white{
-    background-color: white;
-}
-/* Bootstrap styling */
-
-.col-xs-1{
-    padding-left:30px;
+.user{
+    position: relative;
+    bottom: 5px;
 }
 
-.container-fluid{
-    margin-top: 10px;
-}
-.videos{
+/* Video section */
+
+.video-container{
     margin-top:20px;
-}
-.col-md-3{
-    position: absolute;
-    right:-4.6875em;
-}
-.fixed-top{
-    padding-top: 10px;
-}
-
-
-/* Font Awesome styling */
-
-.fa-bell{
-    padding:15px;
-}
-.fa-plus-square{
-    padding:15px;
-}
-.fa-video{
-    padding:15px;
-}
-.fa-times-circle{
-    padding: 15px;
 }
