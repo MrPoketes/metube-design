@@ -44,9 +44,12 @@ img.img-thumbnail{
     position: relative;
     bottom: 5px;
 }
-
 /* Video section */
 
 .video-container{
     margin-top:20px;
+}
+.fix{
+    position: relative;
+    left:120px;
 }
