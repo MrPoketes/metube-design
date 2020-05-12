@@ -1,8 +1,5 @@
 /* Bootstrap styling */
 
-.col-xs-1{
-    padding-left:30px;
-}
 .container-fluid{
     margin-top: 10px;
 }
@@ -11,9 +8,45 @@
     right:-4.6875em;
 }
 .fixed-top{
-    padding-top: 10px;
+    padding-top: 0.625em;
 }
+
+.nopadding {
+    padding: 0 !important;
+ }
+ 
 /* Font Awesome styling */
+
+/* Nav bar */
+
+.fa-bars{
+    position: relative;
+    padding: 10px;
+    top:0px;
+    left:31px;
+    font-size: 20px;
+}
+.fa-bars:hover{
+    background-color: rgb(156, 156, 156, 20%);
+}
+
+/* Menu bar */
+
+.icons-menu{
+    display:block;
+    text-align: left;
+    padding: 20px;
+    font-size: 25px;
+    position: relative;
+    right:14px;
+}
+.fa-fire-alt{
+    font-size: 30px;
+}
+.icons-menu:hover{
+    background-color: rgb(156, 156, 156, 20%);
+    color:red;
+}
 
 /* Background colors */
 
@@ -25,31 +58,34 @@
 
 .logo{
     position: relative;
-    top:-5px;
-    left:2px;
+    top:-3px;
+    left:-45px;
 }
 .logo-2{
+    position: relative;
+    left:-50px;
+    top:4px;
     width:35px;
 }
-img.img-thumbnail{
-    padding: 8px;
-}
-.img-thumbnail:hover{
-    background-color: rgb(156, 156, 156, 20%);
-}
+
 .nav-user{
-    padding: 0.5em 1.25em 0 1.25em; 
+    padding: 8px 20px 0 20px; 
 }
 .user{
     position: relative;
     bottom: 5px;
 }
+.navigation{
+    position: relative;
+    right:0px;
+}
+
 /* Video section */
 
 .video-container{
-    margin-top:20px;
+    margin-top:1.25em;
 }
 .fix{
     position: relative;
-    left:120px;
+    left:85px;
 }
