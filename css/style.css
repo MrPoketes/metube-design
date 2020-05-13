@@ -117,6 +117,9 @@
 }
 
 /* Videos section */
+.recommended{
+    padding: 10px 0 5px 15px;
+}
 
 .video{
     width: 320px;
