@@ -48,12 +48,6 @@
     color:red;
 }
 
-/* Background colors */
-
-.background-white{
-    background-color: white;
-}
-
 /* Navbar */
 
 .logo{
@@ -148,13 +142,62 @@
     color:black;
   }
 
+.link:hover .fa-ellipsis-v{
+    visibility: visible;
+}
+.fa-clock{
+    position: relative;
+    visibility: hidden;
+    color:white;
+    padding: 5px;
+    background-color: black;
+    left:280px;
+    bottom:265px;
+}
+.link:hover .fa-clock{
+    visibility: visible;
+}
+
+.fa-list-ul{
+    position: relative;
+    color:white;
+    padding: 5px;
+    background-color: black;
+    bottom: 230px;
+    left:250px;
+    visibility: hidden;
+}
+.link:hover .fa-list-ul{
+    visibility: visible;
+}
+
+/* Needs fixing */
+
+.watch-later{
+    position: relative;
+    left:215px;
+    bottom: 290px;
+    font-weight: bold;
+    background-color: black;
+    padding: 3px 3px 8px 3px;
+    width:75px;
+    color:white;
+    font-size: 10px;
+    visibility: hidden;
+}
+.fa-clock:hover .watch-later{
+    visibility: visible;
+}
+
+
 /* Text beneath video */
 .user-text{
     padding-top: 10px;
     width:320px;
+    height: 130px;
 }
 .video-title{
-    font-size:20px;
+    font-size:18px;
     font-weight: bold;
     margin:0px;
 }
@@ -171,3 +214,11 @@
     font-size: 14px;
     color:gray;
 }
+.fa-ellipsis-v{
+    visibility: hidden;
+    position: relative;
+    color:gray;
+    left:310px;
+    bottom:70px;
+}
+
