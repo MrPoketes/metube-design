@@ -89,7 +89,10 @@
     position: relative;
     left:72px;
 }
-.video-container p{
+
+/* Menu bar */
+
+.main,.popular,.subs,.library{
     font-size: 10px;
 }
 .main{
@@ -112,7 +115,56 @@
     bottom: 15px;
     left:4px;
 }
+
+/* Videos section */
+
 .video{
-    width: 330px;
-    height: 190px;
+    width: 320px;
+    height: 180px;
+}
+.user-icon{
+    padding-top:15px;
+    padding-right: 10px;
+}
+
+.link:hover{
+    text-decoration: none;
+    color:black;
+}
+.link:link {
+    text-decoration: none;
+    color:black;
+  }
+  
+.link:visited {
+    text-decoration: none;
+    color:black;
+  } 
+.link:active {
+    text-decoration: none;
+    color:black;
+  }
+
+/* Text beneath video */
+.user-text{
+    padding-top: 10px;
+    width:320px;
+}
+.video-title{
+    font-size:20px;
+    font-weight: bold;
+    margin:0px;
+}
+.channel-name{
+    padding: 0;
+    margin:0;
+    font-size:14px;
+    color:gray;
+}
+.views{
+    padding-left: 40px;
+    padding-bottom: 10px;
+    margin:0;
+    font-size: 14px;
+    color:gray;
 }
